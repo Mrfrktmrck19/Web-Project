@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+body{
+    height: 5000px;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: blanchedalmond;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito Sans', sans-serif;
+}
+/*Navbar*/
+nav{
+    background-color: #343A40;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+}
+nav p{
+    font-size: 30px;
+    text-align: center;
+}
+/*Header*/
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: gray;
+    padding-top:50px ;
+}

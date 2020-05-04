@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: blanchedalmond;
+}
+img{
+    width: 100%;
+    min-width: 200px;
+    transition: all 1s;
+}
+img:hover{
+    width: 500px;
+}
+#asds{
+   width:50%;
+   margin-top: 300px;
+   margin-left: 28%;
+   border-left: 5px red solid;
+}
+/*Footer*/
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #343A40;
+}
+footer p{
+    text-align: center;
+}
+#icon{
+    margin-left: 28%;
+    height: 300px;
+    width: 350px;
+}
+#icon i{
+    color: #343A40;
+    font-size: 25px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+#icon i:hover{
+    font-size: 50px;
+}
+/*NavBar*/
+nav{
+    border-top: red 5px solid;
+}
+nav a{
+    transition: all 0.5s;
+}
+nav a:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
