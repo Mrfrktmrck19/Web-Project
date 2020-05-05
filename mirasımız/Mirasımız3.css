@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    color: blanchedalmond;
+}
+h1,h4{
+    font-family: 'Nunito Sans', sans-serif;
+    color: blanchedalmond;
+}
+.duzenle{
+    color: black;
+     font-weight: 600; 
+     display: inline-block;
+}
+/*Nav*/
+nav a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+nav a:hover{
+    background-color: tomato;
+}
+/*Header*/
+header{
+    background-color: #343A40;
+    height: 350px;
+    margin-top: 56px;
+}
+header .container-fluid{
+    height: 300px;
+    width: 90%;
+}
+.bilgi p{
+    line-height: 10px;
+    margin: 10px;
+}
+
+/*Main*/
+main{
+    margin-top: 20px;
+}
+main h1{
+    color: black;
+    border-bottom: 1px dashed black;
+}
+.row{
+    width: 1140px;
+}
+.h3oz{
+    position: absolute; top: 0px;
+    color: white;
+    border-bottom:1px solid white ;
+    margin-top: 10px;
+}
+/*Arama Çubuğu*/
+ main+.container{
+    height: 200px;
+    width: 200px;
+    position:fixed;
+    right: 0px;
+    top: 0px;
+    border-left: black solid 1px;
+}
+.input{
+    color: black;
+    font-weight: 700;
+}
+#icon{
+    border: blue 1px solid;
+}
+@media only screen and (max-width: 900px) {
+    main+.container{
+        display: none;
+    }
+}
